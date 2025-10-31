@@ -10,6 +10,7 @@ dependencies = [
 
 [project.scripts]
 lab1 = "lab1.main:main"
+lab2 = "lab2.main:main"
 
 [[tool.uv.index]]
 url = "https://pysimplegui.net/install"
