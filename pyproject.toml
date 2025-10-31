@@ -1,0 +1,15 @@
+[project]
+name = "graphics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pysimplegui>=5.0.10",
+]
+
+[project.scripts]
+lab1 = "lab1.main:main"
+
+[[tool.uv.index]]
+url = "https://pysimplegui.net/install"
